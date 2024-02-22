@@ -12,3 +12,8 @@ nếu chưa tạo thì phải tạo bằng tay 1 database tên là postgres trư
 -- Update commit số 3 --
 Ở commit này đã tạo 1 file docker-compose.yml mục đích là để tạo ra 1 con database trên docker chạy trên cổng 5432 của docker
 theo như commit số 3 thì đã hoàn thành việc tạo ra nó
+
+-- Update commit số 4 --
+Ở commit này đã migrations thành công mặc dù mới chỉ chạy được
+---- npm run migration:run ----
+---- npm run migration:create --name=your_migration_name ----
