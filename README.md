@@ -29,7 +29,7 @@ Câu lệnh bên duới revert lại file migration gần nhất
 ---- npm run typeorm -- migration:revert ----
 
 migration:create cho phép bạn tạo ra một file migration trống, trong đó bạn có thể viết các truy vấn SQL tùy chỉnh để thay đổi cấu trúc cơ sở dữ liệu. Điều này rất hữu ích khi bạn muốn thực hiện những thay đổi phức tạp hơn mà migration:generate không thể xử lý được.
----- npx typeorm migration:create src/task/migrations/task ----
+---- npx typeorm migration:create src/user/migrations/user ----
 
 Ví dụ, bạn có thể muốn thêm một cột mới vào một bảng, nhưng chỉ khi cột đó chưa tồn tại. Hoặc bạn có thể muốn thực hiện một thay đổi dữ liệu lớn mà không ảnh hưởng đến hiệu suất của ứng dụng. Trong những trường hợp như vậy, migration:create sẽ rất hữu ích.
 

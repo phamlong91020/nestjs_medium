@@ -14,7 +14,7 @@ export const dbDatasource: DataSourceOptions = {
   synchronize: false,
   entities: ['dist/user/entities/user.entity.js'],
   migrations: ['dist/user/migrations/*.js'],
-  migrationsTableName: 'user',
+  // migrationsTableName: 'user',
 };
 
 const dataSource = new DataSource(dbDatasource);
